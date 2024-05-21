@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('commbg.jpg');
+    backdrop-filter: blur(7px);
+}
+
+header {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter:blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    color:yellow;
+    text-align: center;
+    text-size-adjust: 15px;
+}
+
+h3{
+    color:white; 
+}
+
+h1{
+    letter-spacing:1.9px;
+    color: yellow;
+    text-align: center;
+}
+h2{ 
+    color: beige;
+    font-size:30px;
+    padding: 0;
+    text-align: center;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 5px;
+    padding: 10px;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    text-size-adjust: 20px;
+    font-size: 15px;
+    a{
+        text-decoration: brown;
+        color: aqua;
+        font: bold;
+    }
+
+}
+span{
+    color: red;
+}
+img{
+    border-radius: 200px;
+    box-shadow: blue;
+    display: center;
+    flex-wrap: wrap;
+}
+img:hover{
+    transform: scale(1.05);
+    transition: all 0.1s;
+}
+.container{
+    color: aliceblue;
+    width: auto;
+    height: auto;
+    display: flex; 
+    flex-wrap: wrap; 
+}
+.subject {
+    border-radius: 100px;
+    padding: 5px;
+    text-align: center;
+}
+input {
+    border-radius: 2px;
+    box-shadow: black;
+    background-color:aliceblue;
+}
+label{
+    color:yellow;
+}
+footer {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter:blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    color:yellow;
+    text-align: center;
+    text-size-adjust: 15px;
+    position: bottom;
+}
